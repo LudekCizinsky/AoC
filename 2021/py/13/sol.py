@@ -57,7 +57,7 @@ def main():
     # PART 1
     ax, val = fd[0].split('=')
     p1_crds = fold(crm(ax), int(val), crds)
-    print(f'PART 1 answer: {len(p1_crds)}')
+    print(f'PART 1 clearanswer: {len(p1_crds)}')
 
     # PART 2
     for f in fd:
