@@ -25,7 +25,9 @@ class Pair:
 
         return self.parent.explode(left, right)
 
-    def show(self):
+    def show(self, how="tree"):
+        
+      if how == "tree":
 
         q = deque([self.left, self.right])
         lvl = 1
@@ -45,6 +47,10 @@ class Pair:
             print(tmp)
             lvl += 1
             q = newq
+
+      else:
+
+        pass
 
     def reduce(self, lvl=0, how='explode'):
         
