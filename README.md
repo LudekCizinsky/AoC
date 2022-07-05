@@ -1,7 +1,3 @@
-## AoC
-
-Repository where I store all my solutions to AoC. Find out more about this event [here](https://adventofcode.com/about).
-
-## Description of problems
-
-- [2021](https://adventofcode.com/2021/)
+## About
+Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other. Here are my solutions for the year:
+- [2021](2021)
